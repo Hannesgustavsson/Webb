@@ -1,0 +1,112 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header {
+    text-align: center;
+    padding: 5px;
+    font-family: "Arial";
+    font-size:24px;
+	background-color:#999da3;
+	height: 55px;
+    
+}
+
+
+#Webbshop {
+    background-color:#999da3;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:420px;
+    text-align:center;
+    font-family:"Arial";
+    height:200px;
+    
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+#Support {
+    background-color:#999da3;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:420px;
+    text-align:center;
+    font-family:"Arial";
+    height:200px;
+ 
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+	
+}
+
+
+#IT {
+    background-color:#999da3;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:420px;
+    text-align:center;
+    font-family:"Arial";
+    height:200px;
+    
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+footer {
+    text-align:center;
+    font-size:20px;
+    float:bottom;
+    position: fixed; 
+    bottom: 0; 
+    
+}
+
+
+#Webbarticle {
+    font-family:"Calibri";
+    font-size:25px;
+	text-align:center;
+	background-color:#999da3;
+	margin-left:4%;
+	margin-right:4%;
+	border-radius:10px;
+	
+    
+}
+
+#Supportarticle {
+    font-family:"Calibri";
+    font-size:25px;
+    
+}
+
+#ITarticle {
+    font-family:"Calibri";
+    font-size:25px;
+    
+}
+
+#Wrapper {
+	margin:auto;
+	width:1320px;
+
+}
+
+body {
+background-color:#F0ECF7;
+
+}
+
