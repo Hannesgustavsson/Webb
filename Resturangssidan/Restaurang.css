@@ -1,0 +1,715 @@
+header {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  background: #BBCFD4;
+  font-family: cursive;
+  font-size: auto;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #BBCFD4;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  padding-top: 16px;
+}
+
+h2 {
+  font-size: 23px;
+  text-align: center;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration:none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  text-decoration: underline BLACK;
+}
+
+h2 > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+h2 > a:hover {
+  color: #000;
+}
+
+h2 > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #2B3B40;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+h2 > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  font-family: cursive;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-grow: 1;
+  overflow: hidden;
+  width: 100%;
+  background-color: #2B3B40;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: #2B3B40;
+  text-align: center;
+  padding-top:10px;
+  padding-bottom: 7px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #616B6E;
+}
+
+#Wrapper {
+  width: 100%;
+  flex-shrink: 1;
+}
+
+#Kontakt {
+  width: 33.33%;
+  flex-shrink: 1;
+}
+
+#Meny {
+  width: 33.33%;
+  flex-shrink: 1;
+}
+
+#Information {
+  width: 33.33%;
+  flex-shrink: 1;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+#Container {
+	width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+#Maträtter {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:1100px;
+    text-align:center;
+    font-family: cursive;
+    height:80px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+#Grillen {
+    background-color:#BBCFD4;
+    display:inline-block;
+    width:1140px;
+    text-align:left;
+    font-family: cursive;
+    height:10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#Halloumiburgare {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:360px;
+    text-align:center;
+    font-family: cursive;
+    height:105px;
+    margin-top: 8px;
+}
+
+#Plankstek {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:360px;
+    text-align:center;
+    font-family: cursive;
+    height:105px;
+    margin-top: 8px;
+}
+
+#Entrecote {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:360px;
+    text-align:center;
+    font-family: cursive;
+    height:105px;
+    margin-top: 8px;
+}
+
+#Fisk {
+  background-color:#BBCFD4;
+  display:inline-block;
+  width:1140px;
+  text-align:left;
+  font-family: cursive;
+  height:10px;
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+
+#Laxtallrik {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:360px;
+    text-align:center;
+    font-family: cursive;
+    height:105px;
+    margin-top: 8px;
+}
+
+#Rödtunga {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:360px;
+    text-align:center;
+    font-family: cursive;
+    height:105px;
+    margin-top: 8px;
+}
+
+#Hummersoppa {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:360px;
+    text-align:center;
+    font-family: cursive;
+    height:105px;
+    margin-top: 8px;
+}
+
+#Sallad {
+    background-color:#BBCFD4;
+    display:inline-block;
+    text-align:left;
+    width:1140px;
+    font-family: cursive;
+    height:10px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#Ceasarsallad {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:360px;
+    text-align:center;
+    font-family: cursive;
+    height:105px;
+    margin-top: 8px;
+}
+
+#Räksallad {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:360px;
+    text-align:center;
+    font-family: cursive;
+    height:105px;
+    margin-top: 8px;
+}
+
+#Romansallad {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:360px;
+    text-align:center;
+    font-family: cursive;
+    height:105px;
+    margin-top: 8px;
+}
+
+#Barnmeny {
+  background-color:#BBCFD4;
+  display:inline-block;
+  width:1140px;
+  text-align:left;
+  font-family: cursive;
+  height:10px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+#Fiskchips {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:540px;
+    text-align:center;
+    font-family: cursive;
+    height:105px;
+    margin-top: 8px;
+}
+
+#Pannkakor {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display: inline-block;
+    width: 540px;
+    text-align: center;
+    font-family: cursive;
+    height: 105px;
+    margin-top: 8px;
+}
+
+
+#Drycker {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width:770px;
+    text-align:center;
+    font-family:cursive;
+    height:380px;
+    margin-top: 25px;
+}
+
+#Kontakta {
+	width:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#Ring {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width: 625px;
+    text-align:center;
+    font-family: cursive;
+    height:220px;
+    margin-top: 35px;
+}
+
+#Mail {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width: 625px;
+    text-align:center;
+    font-family:cursive;
+    height:220px;
+    margin-top: 35px;
+}
+
+#Socialt {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width: 90%;
+    text-align:center;
+    font-family: cursive;
+    height:190px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+#Info {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+	width: 90%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-rows: auto;
+  grid-template-areas: "inforestaurang öppettider"
+                       "inforestaurang jobbhososs";
+
+}
+
+#Inforesturang {
+    grid-area: inforestaurang;
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align:center;
+    font-family: cursive;
+    height: auto;
+    padding-bottom: 30px;
+}
+#Öppettider {
+    grid-area: öppettider;
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align:center;
+    font-family: cursive;
+    height: auto;
+    padding-bottom: 30px;
+}
+#Jobbhososs {
+    grid-area: jobbhososs;
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align:center;
+    font-family: cursive;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#Startsida {
+	width:100%;
+  margin: auto;
+  text-align: center;
+}
+
+#Rubrik {
+    background-color:#BBCFD4;
+    display:inline-block;
+    width:auto;
+    text-align:center;
+    font-family: cursive;
+    height:10px;
+    margin-top: 110px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*#Jobböppet {
+
+	width:50%;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+  align-self: flex-start;
+  height: 336px;
+}*/
+/*
+#Öppettider {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 50%;
+    text-align:center;
+    font-family:cursive;
+    height:168px;
+    margin-top: 35px;
+}
+
+#Jobbhososs {
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    width: 50%;
+    text-align:center;
+    font-family:cursive;
+    height:168px;
+    margin-top: 2px;
+}*/
+
+h3 {
+  text-align: center;
+  font-family: cursive;
+  text-decoration: none;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: Black;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+h6 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+p7 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+  font-family: cursive;
+  padding: 10px;
+  text-decoration: none;
+}
+
+P {
+  font-size: 15px;
+  font-family: cursive;
+  margin-top: 0px;
+  padding-top: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+P2 {
+  font-size: 15px;
+  font-family: cursive;
+  margin-top: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p5 {
+  font-size: 20px;
+  font-family: cursive;
+  margin-top: 0px;
+  margin-left: 15px;
+  padding-top: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+p6 {
+  font-size: 15px;
+  font-family: cursive;
+  margin-top: 0px;
+  padding-top: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p4 {
+  font-size: 30px;
+  font-family: cursive;
+  margin-top: 40px;
+  margin-left: 15px;
+  padding-top: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    html {
+      -webkit-text-size-adjust: none;
+    }
+
+    header {
+      width: 100%;
+      font-size: auto;
+    }
+
+
+    ul {
+      flex-direction: column;
+      list-style-type: none;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    li {
+      float: none;
+    }
+
+    li  a {
+      width: 100%;
+      display: block;
+      text-align: center;
+      font-size: 80%;
+      flex-shrink: 1;
+      flex-grow: 1;
+      flex-basis: auto;
+    }
+
+    p4 {
+      font-family: cursive;
+      margin-top: 40px;
+      margin-left: auto;
+      padding-top: 40px;
+      font-weight: bold;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 23px;
+      text-align: center;
+    }
+
+    h4 {
+      font-size: 15px;
+    }
+
+    #Startsida {
+    	width:100%;
+      margin: auto;
+      text-align: center;
+    }
+
+    #Rubrik {
+        background-color:#BBCFD4;
+        display:inline-block;
+        width:auto;
+        text-align:center;
+        font-family: cursive;
+        height:10px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+    }
+
+    h3 {
+      text-align: center;
+      font-family: cursive;
+      text-decoration: none;
+      margin-left: 40px;
+      margin-right: 40px;
+      color: Black;
+      margin-top: 35px;
+      font-size: 20px;
+    }
+
+    #Ring {
+    	width: 100%;
+      height: auto;
+      text-align: center;
+    }
+
+    #Mail {
+      width: 100%;
+      text-align: center;
+      height: auto;
+    }
+
+    #Socialt {
+      width: 100%;
+      text-align: center;
+      height:auto;
+    }
+
+    #Maträtter {
+      text-align: center;
+      height:auto;
+    }
+
+    #Grillen {
+      text-align: center;
+    }
+
+    #Drycker {
+      width: 100%;
+      height: 100%;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    #Info {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    	width: 90%;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      grid-template-rows: auto;
+      grid-template-areas: "inforestaurang"
+                           "öppettider"
+                           "jobbhososs"
