@@ -13,12 +13,6 @@ body {
   background-color: #BBCFD4;
 }
 
-p {
-  text-align: center;
-  font-size: 20px;
-  margin-top: 20px;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -148,7 +142,7 @@ footer {
 }
 
 #Container {
-	width: auto;
+	width: 81.55%;
   margin: auto;
   text-align: center;
 }
@@ -158,202 +152,62 @@ footer {
     border: 2px solid;
     border-radius: 10px;
     display:inline-block;
-    width:1100px;
     text-align:center;
     font-family: cursive;
     height:80px;
     margin-top: 35px;
     margin-bottom: 30px;
+    width: 100%;
 }
 
-#Grillen {
-    background-color:#BBCFD4;
-    display:inline-block;
-    width:1140px;
-    text-align:left;
-    font-family: cursive;
-    height:10px;
-    margin-top: 10px;
-    margin-left: 50px;
+.rätt{
+  width: 32.7%;
+  background-color:#BBCFD4;
+  border: 2px solid;
+  border-radius: 10px;
+  display:inline-block;
+  text-align:center;
+  font-family: cursive;
+  height:auto;
+  margin-top: 8px;
+  padding-bottom: 10px;
 }
 
-#Halloumiburgare {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:360px;
-    text-align:center;
-    font-family: cursive;
-    height:105px;
-    margin-top: 8px;
-}
-
-#Plankstek {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:360px;
-    text-align:center;
-    font-family: cursive;
-    height:105px;
-    margin-top: 8px;
-}
-
-#Entrecote {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:360px;
-    text-align:center;
-    font-family: cursive;
-    height:105px;
-    margin-top: 8px;
-}
-
-#Fisk {
+.huvudrätt{
+  width: 100%;
   background-color:#BBCFD4;
   display:inline-block;
-  width:1140px;
   text-align:left;
   font-family: cursive;
   height:10px;
   margin-top: 20px;
-  margin-left: 50px;
-
+  margin-left: 0px;
 }
 
-#Laxtallrik {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:360px;
-    text-align:center;
-    font-family: cursive;
-    height:105px;
-    margin-top: 8px;
-}
-
-#Rödtunga {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:360px;
-    text-align:center;
-    font-family: cursive;
-    height:105px;
-    margin-top: 8px;
-}
-
-#Hummersoppa {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:360px;
-    text-align:center;
-    font-family: cursive;
-    height:105px;
-    margin-top: 8px;
-}
-
-#Sallad {
-    background-color:#BBCFD4;
-    display:inline-block;
-    text-align:left;
-    width:1140px;
-    font-family: cursive;
-    height:10px;
-    margin-top: 20px;
-    margin-left: 50px;
-}
-
-#Ceasarsallad {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:360px;
-    text-align:center;
-    font-family: cursive;
-    height:105px;
-    margin-top: 8px;
-}
-
-#Räksallad {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:360px;
-    text-align:center;
-    font-family: cursive;
-    height:105px;
-    margin-top: 8px;
-}
-
-#Romansallad {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:360px;
-    text-align:center;
-    font-family: cursive;
-    height:105px;
-    margin-top: 8px;
-}
-
-#Barnmeny {
+.barnrätt{
+  width: 49.1%;
   background-color:#BBCFD4;
-  display:inline-block;
-  width:1140px;
-  text-align:left;
+  border: 2px solid;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
   font-family: cursive;
-  height:10px;
-  margin-top: 20px;
-  margin-left: 50px;
+  height: auto;
+  margin-top: 8px;
+  padding-bottom: 10px;
 }
 
-#Fiskchips {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:540px;
-    text-align:center;
-    font-family: cursive;
-    height:105px;
-    margin-top: 8px;
-}
-
-#Pannkakor {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display: inline-block;
-    width: 540px;
-    text-align: center;
-    font-family: cursive;
-    height: 105px;
-    margin-top: 8px;
-}
-
-
-#Drycker {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width:770px;
-    text-align:center;
-    font-family:cursive;
-    height:380px;
-    margin-top: 25px;
+.drycker{
+  width: 40%;
+  background-color:#BBCFD4;
+  border: 2px solid;
+  border-radius: 10px;
+  display:inline-block;
+  text-align:center;
+  font-family:cursive;
+  height:auto;
+  margin-top: 25px;
+  padding-bottom: 10px;
 }
 
 #Kontakta {
@@ -466,39 +320,6 @@ footer {
     margin-right: 50px;
 }
 
-/*#Jobböppet {
-
-	width:50%;
-  margin: auto;
-  text-align: center;
-  flex-direction: column;
-  align-self: flex-start;
-  height: 336px;
-}*/
-/*
-#Öppettider {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    width: 50%;
-    text-align:center;
-    font-family:cursive;
-    height:168px;
-    margin-top: 35px;
-}
-
-#Jobbhososs {
-    background-color:#BBCFD4;
-    border: 2px solid;
-    border-radius: 10px;
-    display:inline-block;
-    width: 50%;
-    text-align:center;
-    font-family:cursive;
-    height:168px;
-    margin-top: 2px;
-}*/
-
 h3 {
   text-align: center;
   font-family: cursive;
@@ -573,7 +394,61 @@ p4 {
   text-align: center;
 }
 
+@media screen and (max-width: 1287px) {
+
+  .huvudrätt{
+    width: 100%;
+    background-color:#BBCFD4;
+    text-align:center;
+    font-family: cursive;
+    height:10px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 1210px) {
+
+  .rätt{
+    width: 100%;
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align:center;
+    font-family: cursive;
+    height:auto;
+    margin-top: 8px;
+    padding-bottom: 10px;
+  }
+
+  .huvudrätt{
+    width: 100%;
+    background-color:#BBCFD4;
+    text-align:center;
+    font-family: cursive;
+    height:10px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .barnrätt{
+    width: 100%;
+    background-color:#BBCFD4;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-family: cursive;
+    height: auto;
+    margin-top: 8px;
+    padding-bottom: 10px;
+  }
+
 @media screen and (max-width: 700px) {
+
+
+section{
+width:100%;
+}
+
     html {
       -webkit-text-size-adjust: none;
     }
@@ -582,7 +457,6 @@ p4 {
       width: 100%;
       font-size: auto;
     }
-
 
     ul {
       flex-direction: column;
@@ -603,7 +477,7 @@ p4 {
       width: 100%;
       display: block;
       text-align: center;
-      font-size: 80%;
+      font-size: 100%;
       flex-shrink: 1;
       flex-grow: 1;
       flex-basis: auto;
@@ -694,10 +568,6 @@ p4 {
       height: 100%;
     }
 
-    p {
-      text-align: center;
-    }
-
     #Info {
       margin-left: auto;
       margin-right: auto;
@@ -713,3 +583,4 @@ p4 {
       grid-template-areas: "inforestaurang"
                            "öppettider"
                            "jobbhososs"
+}
